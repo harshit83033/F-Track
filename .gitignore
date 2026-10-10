@@ -1,0 +1,11 @@
+﻿node_modules/
+.env
+.env.*
+!.env.example
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+.vscode/
+.idea/
+*.log
