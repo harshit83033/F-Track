@@ -52,7 +52,7 @@ class _WeightScreenState extends State<WeightScreen> {
 
       final response = await http.get(
         Uri.parse(
-          'http://localhost:5000/weight/$encodedEmail',
+          'https://f-track-backend.onrender.com/weight/$encodedEmail',
         ),
       );
 
@@ -136,7 +136,7 @@ class _WeightScreenState extends State<WeightScreen> {
       }
 
       final response = await http.post(
-        Uri.parse('http://localhost:5000/weight'),
+        Uri.parse('https://f-track-backend.onrender.com/weight'),
         headers: {
           'Content-Type': 'application/json',
         },
@@ -203,7 +203,7 @@ class _WeightScreenState extends State<WeightScreen> {
     try {
       final response = await http.delete(
         Uri.parse(
-          'http://localhost:5000/weight/$id',
+          'https://f-track-backend.onrender.com/weight/$id',
         ),
       );
 

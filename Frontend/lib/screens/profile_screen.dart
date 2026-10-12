@@ -23,7 +23,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
   bool _isLoading = true;
   bool _isSaving = false;
 
-  final String baseUrl = 'http://localhost:5000';
+  final String baseUrl = 'https://f-track-backend.onrender.com';
 
   @override
   void initState() {

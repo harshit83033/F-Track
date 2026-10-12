@@ -55,7 +55,7 @@ class _SignupScreenState extends State<SignupScreen> {
 
     try {
       final response = await http.post(
-        Uri.parse('http://localhost:5000/signup'),
+        Uri.parse('https://f-track-backend.onrender.com/signup'),
         headers: {
           'Content-Type': 'application/json',
         },

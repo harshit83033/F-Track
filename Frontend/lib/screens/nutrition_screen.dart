@@ -26,7 +26,7 @@ class _NutritionScreenState extends State<NutritionScreen> {
 
   bool _isLoading = false;
 
-  final String baseUrl = 'http://localhost:5000';
+  final String baseUrl = 'https://f-track-backend.onrender.com';
 
   @override
   void initState() {

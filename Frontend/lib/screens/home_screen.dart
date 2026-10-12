@@ -64,7 +64,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
         final response = await http.get(
           Uri.parse(
-            'http://localhost:5000/weight/$encodedEmail',
+            'https://f-track-backend.onrender.com/weight/$encodedEmail',
           ),
         );
 

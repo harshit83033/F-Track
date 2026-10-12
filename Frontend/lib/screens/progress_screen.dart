@@ -49,17 +49,17 @@ class _ProgressScreenState extends State<ProgressScreen> {
       final responses = await Future.wait([
         http.get(
           Uri.parse(
-            'http://localhost:5000/workouts/$encodedEmail',
+            'https://f-track-backend.onrender.com/workouts/$encodedEmail',
           ),
         ),
         http.get(
           Uri.parse(
-            'http://localhost:5000/nutrition/$encodedEmail',
+            'https://f-track-backend.onrender.com/nutrition/$encodedEmail',
           ),
         ),
         http.get(
           Uri.parse(
-            'http://localhost:5000/weight/$encodedEmail',
+            'https://f-track-backend.onrender.com/weight/$encodedEmail',
           ),
         ),
       ]);
